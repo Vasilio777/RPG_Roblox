@@ -1,0 +1,3 @@
+local CombatModule = {}
+
+return CombatModule

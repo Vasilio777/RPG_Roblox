@@ -39,3 +39,45 @@ luac.out
 *.x86_64
 *.hex
 
+
+# Ignore Roblox Studio temporary files and directories
+*.rbxl.tmp
+*.rbxlx.tmp
+*.pyc
+.DS_Store
+
+# Ignore Rojo build artifacts
+*.rblx
+*.rblxl
+out/
+
+# Ignore Rojo specific settings and configuration caches
+.rojo/
+.rojo-output/
+
+# Ignore system-specific files
+Thumbs.db
+desktop.ini
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore MacOS specific files
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+__MACOSX/
+
+# Ignore other OS-specific files
+*.swp
+*.swo
+*~
+
+*.lock
