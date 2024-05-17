@@ -1,3 +1,0 @@
-local InventoryModule = {}
-
-return InventoryModule

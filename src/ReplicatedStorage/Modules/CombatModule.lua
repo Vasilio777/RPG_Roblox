@@ -1,3 +1,0 @@
-local CombatModule = {}
-
-return CombatModule

@@ -1,3 +1,0 @@
-local QuestModule = {}
-
-return QuestModule
