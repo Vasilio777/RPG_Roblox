@@ -1,3 +1,8 @@
+/node_modules
+/out
+/include
+*.tsbuildinfo
+
 # Compiled Lua sources
 luac.out
 
