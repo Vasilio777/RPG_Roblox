@@ -1,6 +1,6 @@
 local Leaderboard = {}
 
--- Creating a new leaderboard
+
 local function setupLeaderboard(player)
   local leaderstats = Instance.new("Folder")
   -- 'leaderstats' is a reserved name Roblox recognizes for creating a leaderboard
@@ -9,7 +9,6 @@ local function setupLeaderboard(player)
   return leaderstats
 end
 
--- Creating a new leaderboard stat value
 local function setupStat(leaderstats, statName)
   local stat = Instance.new("IntValue")
   stat.Name = statName
@@ -18,7 +17,6 @@ local function setupStat(leaderstats, statName)
   return stat
 end
 
--- Updating a player's stat value
 function Leaderboard.setStat(player, statName, value)
   local leaderstats = player:FindFirstChild("leaderstats")
   if not leaderstats then
