@@ -49,6 +49,7 @@ luac.out
 *.rbxlx
 
 .env
+package-lock.json
 
 # Ignore Roblox Studio temporary files and directories
 *.rbxl.tmp
