@@ -39,6 +39,11 @@ luac.out
 *.x86_64
 *.hex
 
+# Ignore Roblox Studio files
+*.rbxl
+*.rbxlx
+
+.env
 
 # Ignore Roblox Studio temporary files and directories
 *.rbxl.tmp

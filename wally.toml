@@ -1,0 +1,9 @@
+[package]
+name = "purge/rpg_project"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+exclude = [".vscode", "src", "node_modules/*", "testing", "out/**/*.d.ts", "docs", ".github", ".vscode"]
+include = ["include", "node_modules/@rbxts", "node_modules/@rbxts/*", "out", "default.project.json", "LICENSE"]
+
+[dependencies]
