@@ -24,6 +24,10 @@
     "typescript": "^5.4.5"
   },
   "dependencies": {
-    "@rbxts/net": "^3.0.9"
+    "@rbxts/net": "^3.0.9",
+    "@rbxts/roact": "^1.4.4-ts.0",
+    "@rbxts/rodux": "^3.0.0-ts.3",
+    "@rbxts/services": "^1.5.4",
+    "@rbxts/signal": "^1.1.1"
   }
 }
