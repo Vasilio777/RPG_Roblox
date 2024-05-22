@@ -1,11 +1,19 @@
 interface Config {
-	CameraPos: Vector3;
-	CameraFov: number;
+	cameraPos: Vector3;
+	cameraFov: number;
+
+	dash_force: number;
+	dash_dur: number;
+	dash_cd: number;
 }
 
 const Config: Config = {
-	CameraPos: new Vector3(-10, 25, -10),
-	CameraFov: 50,
+	cameraPos: new Vector3(-10, 25, -10),
+	cameraFov: 50,
+
+	dash_force: 150,
+	dash_dur: 1.6,
+	dash_cd: 2,
 };
 
 export = Config;

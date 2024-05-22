@@ -10,9 +10,9 @@ player.CharacterAdded.Connect((char) => {
 	RunService.RenderStepped.Connect(() => {
 		if (camera && charRoot) {
 			const charPos = charRoot.Position;
-			const camPos = charPos.add(Config.CameraPos);
+			const camPos = charPos.add(Config.cameraPos);
 			camera.CFrame = new CFrame(camPos, charPos);
-			camera.FieldOfView = Config.CameraFov;
+			camera.FieldOfView = Config.cameraFov;
 		}
 	});
 });
